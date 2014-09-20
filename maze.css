@@ -1,0 +1,105 @@
+body {
+	background:teal;
+	}
+#narrative {
+	width:800px;
+	height:20px;
+}
+			
+#map {
+	position:relative;
+	border: 1px solid black;
+	height: 300px;
+	width: 800px;
+	background: url(background.png) no-repeat;
+	overflow:hidden;
+}
+#mapNight {
+	position:relative;
+	border: 1px solid black;
+	height: 300px;
+	width: 800px;
+	background: url(backgroundNight.png) no-repeat;
+	overflow:hidden;
+}
+#player {
+	position: absolute;
+	background: url(player.png) no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+#robot {
+	position: absolute;
+	background: url(deadlyRobot.png) no-repeat;
+	width:50px;
+	height:50px;
+	}
+#robotSec {
+	position: absolute;
+	background: url(deadlyRobot.png) no-repeat;
+	width:50px;
+	height:50px;
+	}
+#robotThird {
+	position:absolute;
+	background:url(deadlyRobot.png) no-repeat;
+	width:50px;
+	height:50px;
+	}
+#fireBall {
+	position: absolute;
+	background: url(fireBall.png) no-repeat;
+	width:15px;
+	height:15px;
+	}
+#fireBallSec {
+	position: absolute;
+	background: url(fireBall.png) no-repeat;
+	width:15px;
+	height:15px;
+	}
+#fireBallThird {
+	position: absolute;
+	background: url(fireBall.png) no-repeat;
+	width:15px;
+	height:15px;
+	}
+#riddle {
+	position: relative;
+	background: url(riddleMaster.png) no-repeat;
+	width:50px;
+	height:50px;
+	left:750px;
+	top:150px;
+	float:left;
+	}
+#start {
+	font-size: 25px;
+	color: orange;
+	border: 1mm solid black;
+	width:800px;
+	height:50px;
+	text-decoration:underline;
+	text-align:center;
+	text-decoration:bold;
+	}
+#RIP {
+	position: absolute;
+	background: url(deadHero.png) no-repeat;
+	width:50px;
+	height:50px;
+	}
+#RiddleArea {
+	position: relative;
+	width:800px;
+	height:100px;
+	}
+#RiddleArea ul  li,li input{
+	float:left;
+	border:1px solid black;
+	width:25px;
+	height:25px;
+	list-style-type:none;
+	text-align:center;
+	}
